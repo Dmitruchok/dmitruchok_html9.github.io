@@ -108,17 +108,17 @@ body {
 
 .our_company_one a {
   font-size: 17px;
-  margin: 15px 0 0 200px;
+  margin: 15px 0 0 245px;
 }
 
 .our_company_two a {
   font-size: 17px;
-  margin: 17px 0 0 200px;
+  margin: 17px 0 0 250px;
 }
 
 .our_company_three a {
   font-size: 17px;
-  margin: 15px 0 0 200px;
+  margin: 15px 0 0 250px;
 }
 
 .our_company a:hover {
@@ -183,14 +183,16 @@ body {
 
 .inform {
   clear: both;
+  padding-bottom: 500px
 }
 
 .pingbuller {
   float: left;
+  margin: 135px 0 0 0;
 }
 
 .pingbuller p {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .head_pingbuller:before {
@@ -199,6 +201,11 @@ body {
 
 .updates {
   float: left;
+}
+
+.updates a {
+  font-size: 22px;
+  margin: 22px 0 0 360px;
 }
 
 .labe {
