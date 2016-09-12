@@ -91,15 +91,15 @@ body {
 }
 
 .our_company_one p {
-  height: 170px;
+  height: 122px;
 }
 
 .our_company_two p {
-  height: 170px;
+  height: 122px;
 }
 
 .our_company_three p {
-  height: 170px;
+  height: 122px;
 }
 
 .our_company h3 {
@@ -126,72 +126,58 @@ body {
   filter:Shadow(Color=#666666,Direction=135,Strength=5);
 }
 
-/*.our_company_one h3:before {
+.our_company_one h3:before {
   content: url('../img/layer_34.png');
-  display: block;
-  height: 32px;
-  margin-left: .3rem;
-  margin-right: 1.5rem;
-  margin-top: .2rem;
-  vertical-align: middle;
-  width: 1.9rem;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  margin-right: 27px;
 }
 
 .our_company_two h3:before {
-  background: url('../img/layer_34.png') -32px 0 no-repeat ;
-  content: "";
-  display: inline-block;
-  height: 2rem;
-  margin-left: .4rem;
-  margin-right: 1.6rem;
-  margin-top: .4rem;
-  vertical-align: middle;
-  width: 1.9rem;
+  content: url('../img/layer_34.png') -32px 0 no-repeat ;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  margin-right: 27px;
 }
 
 .our_company_three h3:before {
-  background: url('../img/layer_34.png') -65px 0 no-repeat ;
-  content: "";
-  display: inline-block;
-  height: 2rem;
-  margin-left: .6rem;
-  margin-right: 1.6rem;
-  margin-top: .5rem;
-  vertical-align: middle;
-  width: 1.9rem;
-}*/
+  content: url('../img/layer_34.png') -65px 0 no-repeat ;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  margin-right: 27px;
+}
 
 .our_company_one h3:hover:before {
   background-position: 0 -33px;
-  transition: .1s;
 }
 
 .our_company_two h3:hover:before {
   background-position: -32px -33px;
-  transition: .1s;
 }
 
 .our_company_three h3:hover:before {
   background-position: -65px -33px;
-  transition: .1s;
 }
 
 .our_company_one {
-  margin: 76px 0 0 7px;
+  margin: 76px 0 0 0;
 }
 
 .our_company_two {
-  margin: 76px 0 0 51px;
+  margin: 76px 0 0 40px;
 }
 
 .our_company_three {
-  margin: 72px 0 0 49px;
+  margin: 72px 0 0 40px;
 }
 
 .our_company_one,
 .our_company_two,
 .our_company_three {
-  width: 28%;
+  width: 30%;
   float: left;
 }
 

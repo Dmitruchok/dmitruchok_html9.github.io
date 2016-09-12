@@ -249,17 +249,14 @@ header {
 
 .our_company_one h3:hover:before {
   background-position: 0 -33px;
-  transition: .1s;
 }
 
 .our_company_two h3:hover:before {
   background-position: -32px -33px;
-  transition: .1s;
 }
 
 .our_company_three h3:hover:before {
   background-position: -65px -33px;
-  transition: .1s;
 }
 
 .our_company_one {
