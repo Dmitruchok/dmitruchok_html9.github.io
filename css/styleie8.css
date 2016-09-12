@@ -66,36 +66,12 @@ body {
 }
 
 .banner_content {
-  display: flex;
-  margin: 0 auto;
   padding-bottom: 81px;
 }
 
-.banner_text {
-  margin: 54px 0 0 0;
-  width: 54%;
-}
 
-.banner_text h2 {
-  color:#fefefe;
-  font-size: 3.6em;
-  font-weight: normal;
-  margin: 21px 0 0 0;
-}
-
-.banner_text h3 {
-  color:#edbfff;
-  font-size: 1.9em;
-  font-weight: normal;
-  margin: 0;
-}
-
-.banner_text p {
-  color:#fefefe;
-  font-family: 'OpenSans-Light';
-  font-size: 1.1em;
-  line-height: 24px;
-  margin: 0;
+.banner_img {
+  top: -75px;
 }
 
 .content {
@@ -107,7 +83,6 @@ body {
 /*CONTENT*/
 
 .our_company {
-  color: white;
   display: inline;
   font-family: 'league-gothic.regular';
 }
@@ -129,17 +104,17 @@ body {
 }
 
 .our_company_one a {
-  font-size: 12px;
+  font-size: 17px;
   margin: 15px 0 0 200px;
 }
 
 .our_company_two a {
-  font-size: 12px;
+  font-size: 17px;
   margin: 17px 0 0 200px;
 }
 
 .our_company_three a {
-  font-size: 12px;
+  font-size: 17px;
   margin: 15px 0 0 200px;
 }
 
@@ -147,7 +122,7 @@ body {
   text-shadow: 0 0 30px #fff;
 }
 
-.our_company_one h3:before {
+/*.our_company_one h3:before {
   content: url('../img/layer_34.png');
   display: block;
   height: 32px;
@@ -180,7 +155,7 @@ body {
   margin-top: .5rem;
   vertical-align: middle;
   width: 1.9rem;
-}
+}*/
 
 .our_company_one h3:hover:before {
   background-position: 0 -33px;
@@ -224,12 +199,20 @@ body {
   float: left;
 }
 
+.head_pingbuller:before {
+  float: left;
+}
+
 .updates {
   float: left;
 }
 
 .labe {
   clear: both;
+}
+
+.news {
+  padding-bottom: 430px;
 }
 
 .kategori_one,
