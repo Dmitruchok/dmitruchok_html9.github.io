@@ -69,6 +69,9 @@ body {
   padding-bottom: 81px;
 }
 
+.banner_text p {
+  font-size: 18px;
+}
 
 .banner_img {
   top: -75px;
@@ -119,7 +122,8 @@ body {
 }
 
 .our_company a:hover {
-  text-shadow: 0 0 30px #fff;
+  height: 1em;
+  filter:Shadow(Color=#666666,Direction=135,Strength=5);
 }
 
 /*.our_company_one h3:before {
@@ -199,6 +203,10 @@ body {
   float: left;
 }
 
+.pingbuller p {
+  margin-top: 30px;
+}
+
 .head_pingbuller:before {
   float: left;
 }
@@ -226,4 +234,18 @@ body {
 
 footer {
   clear: both;
+}
+
+.nav_menu_footer {
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+
+.designer_by {
+  display: inline;
+  margin-left: 800px;
+}
+
+.designer_by p {
+  display: inline;
 }
