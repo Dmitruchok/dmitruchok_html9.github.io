@@ -194,7 +194,7 @@ body {
     margin-top: 15px;
 }
 
-.head_pingbuller::before {
+.head_pingbuller:before {
     float: left;
 }
 
