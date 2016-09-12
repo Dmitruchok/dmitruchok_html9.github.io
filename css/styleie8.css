@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'league-gothic.regular';
-  src: url('../fonts/LeagueGothicRegular.eot') ;
+  src: url('../fonts/league-gothic.condensed-regular.eot') ;
 }
 
 @font-face {
@@ -24,43 +24,22 @@ body {
 
 /*HEADER*/
 
-.container-width {
-  margin: 0 auto;
-  width: 960px;
-}
-
-header {
-  background: url('../img/bg.png') ;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 168px;
-}
-
 .menu {
   font-family: 'league-gothic.regular';
-  font-size: 1.5em;
+  font-size: 28px;
   font-weight: normal;
-}
-
-.logo img {
-  display: block;
-}
-
-.nav_menu_480_320 {
-  display: none;
 }
 
 .nav_menu {
   color:#fff;
   display: inline;
+  padding-left: 25px;
+  margin-left: 292px;
 }
 
 .nav_menu li {
   display: inline;
-  margin-left: 12px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
-  list-style-type: none;
+  margin-left: 50px;
 }
 
 
@@ -77,8 +56,7 @@ header {
 
 .banner {
   background: black;
-  opacity: 0.7;
-  filter: alpha(Opacity=70) ; 
+  filter: alpha(Opacity=50) ; 
   font-family: 'league-gothic.regular';
   margin-top: 151px;
 }
@@ -251,5 +229,18 @@ header {
 }
 
 .labe {
+  clear: both;
+}
+
+.kategori_one,
+.kategori_two,
+.kategori_three {
+  width: 28%;
+  float: left;
+}
+
+/*FOOTER*/
+
+footer {
   clear: both;
 }
