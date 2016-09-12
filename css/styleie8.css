@@ -147,33 +147,22 @@ header {
 }
 
 .our_company h3 {
-  font-size: 1.8em;
-  font-weight: normal;
-  margin: 0;
+  font-size: 20px;
 }
 
 .our_company_one a {
-  color:#fff;
-  display: block;
-  font-size: 1.1em;
-  margin: 15px 0 0 217px;
-  text-decoration: none;
+  font-size: 12px;
+  margin: 15px 0 0 200px;
 }
 
 .our_company_two a {
-  color:#fff;
-  display: block;
-  font-size: 1.1em;
-  margin: 17px 0 0 225px;
-  text-decoration: none;
+  font-size: 12px;
+  margin: 17px 0 0 200px;
 }
 
 .our_company_three a {
-  color:#fff;
-  display: block;
-  font-size: 1.1em;
-  margin: 15px 0 0 228px;
-  text-decoration: none;
+  font-size: 12px;
+  margin: 15px 0 0 200px;
 }
 
 .our_company a:hover {
@@ -181,10 +170,9 @@ header {
 }
 
 .our_company_one h3:before {
-  background: url('../img/layer_34.png') 0 0 no-repeat;
-  content: "";
-  display: inline-block;
-  height: 2rem;
+  content: url('../img/layer_34.png');
+  display: block;
+  height: 32px;
   margin-left: .3rem;
   margin-right: 1.5rem;
   margin-top: .2rem;
@@ -251,8 +239,17 @@ header {
 }
 
 .inform {
-  background:#fff;
-  font-family: 'OpenSans-Light';
-  padding-bottom: 89px;
+  clear: both;
+}
+
+.pingbuller {
+  float: left;
+}
+
+.updates {
+  float: left;
+}
+
+.labe {
   clear: both;
 }

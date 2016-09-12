@@ -212,7 +212,7 @@ header {
 }
 
 .our_company_one h3:before {
-  background: url('../img/_ayer_34.png') 0 0 no-repeat ;
+  background: url('../img/layer_34.png') 0 0 no-repeat ;
   content: "";
   display: inline-block;
   height: 2rem;
@@ -224,7 +224,7 @@ header {
 }
 
 .our_company_two h3:before {
-  background: url('../img/Layer 34.png') -32px 0 no-repeat;
+  background: url('../img/layer_34.png') -32px 0 no-repeat;
   content: "";
   display: inline-block;
   height: 2rem;
@@ -236,7 +236,7 @@ header {
 }
 
 .our_company_three h3:before {
-  background: url('../img/Layer 34.png') -65px 0 no-repeat;
+  background: url('../img/layer_34.png') -65px 0 no-repeat;
   content: "";
   display: inline-block;
   height: 2rem;
