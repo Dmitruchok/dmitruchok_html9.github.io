@@ -122,7 +122,7 @@ body {
 }
 
 .our_company a:hover {
-    filter:Shadow(Color=#666,Direction=135,Strength=5);
+    outline: 1px solid #fff;
 }
 
 .our_company_one h3:before {
